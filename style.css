@@ -623,6 +623,7 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-left: 10px;
   color: white;
   font-size: 10px;
   text-align: center;
@@ -636,7 +637,7 @@ a {
   width: 70%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .link:hover {
@@ -769,7 +770,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .hzor1 {
   font-family: "Pathway Gothic One", sans-serif;
   color: gray;
-  width: 200px;
+  width: 35%;
   text-align: center;
   padding-top: 30px;
   font-size: 20px;
@@ -781,14 +782,14 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .linkhz {
   padding-top: 20px;
-  width: 200px;
+  width: 30%;
   font-family: "Pathway Gothic One", sans-serif;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .ajfooter {
-  width: 200px;
+  width: 35%;
   display: flex;
 }
 
@@ -822,18 +823,24 @@ input[type="number"]::-webkit-outer-spin-button {
 @media only screen and (max-width: 1200px) {
   .shat {
     margin: auto;
-    width: 600px;
+    width: 100%;
   }
 
   .mec {
     margin: auto;
-    width: 600px;
+    width: 100%;
     margin-right: none;
+    margin-left: 0;
+  }
+
+  #in4{
+    margin-left: 10%;
   }
 
   .inputner {
-    margin-left: 50px;
+    margin-left: 10%;
     float: none;
+    margin-right: 0;
   }
 
   #serv1 {
@@ -957,12 +964,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 480px) {
-  .shat {
-    width: 350px;
-    margin: auto;
-  }
-  .mec {
-    width: 350px;
+  .pr{
+    font-size: 10px;
   }
   .logoner {
     width: 70px;
@@ -979,10 +982,10 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 150px;
   }
   .inputner {
-    margin-left: 50px;
+    margin-left: 10%;
   }
   #in4 {
-    margin-left: 50px;
+    margin-left: 10%;
   }
   ul {
     font-size: 8px;
